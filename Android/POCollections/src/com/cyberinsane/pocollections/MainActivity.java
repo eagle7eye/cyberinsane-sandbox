@@ -15,11 +15,12 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.cyberinsane.pocollections.customview.BasicCustomView;
+import com.cyberinsane.pocollections.customview.BobbleHeadActivity;
 
 public class MainActivity extends Activity {
 
     ListView mListView;
-    Object[] mModules = { new BasicCustomView() };
+    Object[] mModules = { new BasicCustomView(), new BobbleHeadActivity() };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

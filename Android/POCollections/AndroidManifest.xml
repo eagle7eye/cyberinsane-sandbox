@@ -22,7 +22,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.cyberinsane.pocollections.customview.BasicCustomView" >
+        <activity
+            android:name="com.cyberinsane.pocollections.customview.BasicCustomView"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.cyberinsane.pocollections.customview.BobbleHeadActivity"
+            android:configChanges="orientation|screenSize" >
         </activity>
     </application>
 
